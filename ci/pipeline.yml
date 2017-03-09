@@ -9,11 +9,11 @@ resources:
 - name: deploy-attendee-service
   type: cf
   source:
-    api: api.run-02.haas-66.pez.pivotal.io
+    api: api.run-01.haas-66.pez.pivotal.io
     username: {{cf-user}}
     password: {{cf-password}}
-    organization: twhitney-pal
-    space: pal
+    organization: mgruczel-pal
+    space: sandbox
     skip_cert_check: true
 
 jobs:
